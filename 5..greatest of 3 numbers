@@ -1,0 +1,5 @@
+m=int(input())
+n=int(input())
+o=int(input())
+large=max(m,n,o)
+print("the greatest number is",large)
