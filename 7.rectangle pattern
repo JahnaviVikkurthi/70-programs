@@ -1,0 +1,16 @@
+h=int(input())
+w=int(input())
+for i in range(h):
+    for j in range(w):
+        print("*",end="")
+    print()
+
+
+
+output=
+4
+4
+****
+****
+****
+****
