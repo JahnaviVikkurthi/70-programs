@@ -1,0 +1,21 @@
+PROGRAM:
+def is_palindrome(s):
+    return s==s[::-1]
+string=input("")
+print(is_palindrome(string))
+
+
+
+
+OUTPUT:
+12321
+True
+
+MADAM
+True
+
+12345
+False
+
+JAANU
+False
