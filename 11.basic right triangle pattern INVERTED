@@ -1,0 +1,19 @@
+n=int(input())
+num=1
+for i in range(n,0,-1):
+    num=num+i
+for i in range(0,n):
+    for j in range(0,n-i):
+        print(num,end=" ")
+        num=num-1
+    print()
+
+
+
+output:
+4 // input given
+
+11 10 9 8 
+7 6 5 
+4 3 
+2
