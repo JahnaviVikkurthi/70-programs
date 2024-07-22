@@ -1,0 +1,17 @@
+example:
+input=1234
+output=10(1+2+3+4)
+
+PROGRAM:
+n=int(input())
+sum=0
+for i in str(n):
+    sum=sum+int(i)
+print("sum of n is",sum)
+
+
+OUTPUT:
+1234
+sum of n is 10
+
+    
