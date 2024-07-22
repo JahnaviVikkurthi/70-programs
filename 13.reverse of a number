@@ -1,0 +1,16 @@
+n=int(input())
+print(f"Original number is {n}")
+reverse=0
+for i in str(n):
+    digit=n%10
+    reverse=reverse*10+digit
+    n//=10
+print(f"Reversed number is {reverse}")
+
+
+
+
+output:
+34567//input given
+Original number is 34567
+Reversed number is 76543
